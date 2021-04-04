@@ -79,6 +79,163 @@ hr {
   overflow: visible;
 }
 
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #14213d;
+  
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  color: #fff;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(128, 126, 126);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgb(128, 126, 126);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  
+}
+
+.tabnumber {
+  padding-inline-start: 0px;
+}
+
+.container1 {
+  width: 70%;
+  background-color: #14213d;
+  border: 1px solid rgb(128, 126, 126);
+}
+
+.skills {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+/* Front End */
+.htmlcss {
+  width: 85%;
+  background-color: #117964;
+}
+
+.javascript {
+  width: 80%;
+  background-color: #117964;
+}
+
+.bootstrap {
+  width: 75%;
+  background-color: #117964;
+}
+
+.react {
+  width: 65%;
+  background-color: #117964;
+}
+
+.jquery {
+  width: 50%;
+  background-color: #117964;
+}
+
+
+
+/* Back End */
+.java {
+  width: 90%;
+  background-color: #117964;
+}
+
+.python {
+  width: 80%;
+  background-color: #117964;
+}
+
+.risc-v {
+  width: 75%;
+  background-color: #117964;
+}
+
+.unix {
+  width: 75%;
+  background-color: #117964;
+}
+
+.CC {
+  width: 70%;
+  background-color: #117964;
+}
+
+.verilog {
+  width: 60%;
+  background-color: #117964;
+}
+
+.sql {
+  width: 50%;
+  background-color: #117964;
+}
+
+/* Tools */
+.eclipse {
+  width: 95%;
+  background-color: #117964;
+}
+
+.msoffice {
+  width: 95%;
+  background-color: #117964;
+}
+
+.figma {
+  width: 85%;
+  background-color: #117964;
+}
+
+.pycharm {
+  width: 90%;
+  background-color: #117964;
+}
+
+.androidstudio {
+  width: 70%;
+  background-color: #117964;
+}
+
+.sony {
+  width: 85%;
+  background-color: #117964;
+}
+
+.unity {
+  width: 50%;
+  background-color: #117964;
+}
+
 .inprogress {
   margin: auto;
   width: 60%;
@@ -2604,8 +2761,8 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #14213d;
+  border-color: #FFFFFF;
 }
 .btn-info:hover {
   color: #fff;
