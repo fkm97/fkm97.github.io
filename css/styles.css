@@ -79,6 +79,14 @@ hr {
   overflow: visible;
 }
 
+/* iFrame */
+
+iframe {
+  margin: 0 auto;
+  display: block;
+  border-style: none;
+}
+
 /* Style the tab */
 .tab {
   overflow: hidden;
@@ -127,6 +135,12 @@ hr {
   background-color: #14213d;
   border: 1px solid rgb(128, 126, 126);
 }
+
+/* .container2 {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+} */
 
 .skills {
   padding-top: 10px;
@@ -559,6 +573,13 @@ h6, .h6 {
   list-style: none;
 }
 
+.lead1 {
+  font-size: 1.10rem;
+  font-weight: 300;
+  list-style: circle;
+  padding-inline-start: 22px;
+}
+
 
 
 .exp img {
@@ -808,6 +829,12 @@ pre code {
 }
 .row {
   display: flex;
+  flex-wrap: wrap;
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+}
+
+.row1 {
   flex-wrap: wrap;
   margin-right: -1.5rem;
   margin-left: -1.5rem;
@@ -8151,6 +8178,16 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
+}
+
+.mrr-auto,
+.mz-auto {
+  margin-right: 4rem !important;
+}
+
+.mll-auto,
+.mz-auto {
+  margin-left: 4rem !important;
 }
 
 @media (min-width: 576px) {
